@@ -1,8 +1,8 @@
 class Mclmm < Formula
   desc "Lightweight macOS cleaner CLI (caches, Xcode, .build, brew, uninstall)"
   homepage "https://github.com/mantrandev/mclmm"
-  url "https://github.com/mantrandev/mclmm/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "67e242ac13a898b32d485b251bc40caa3a93edb66e553ce71f8ca09283a9aac9"
+  url "https://github.com/mantrandev/mclmm/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "457d2fa831dcc32841ccad75c959a61059e9b1091eefaa418666de56f62264bd"
   license "MIT"
 
   def install
