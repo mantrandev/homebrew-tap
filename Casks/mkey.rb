@@ -1,6 +1,6 @@
 cask "mkey" do
-  version "0.0.5"
-  sha256 "6abec73f7acb3df2b93b487309ca0b47dfe01acad8fde8d1930a9f71c859eb7d"
+  version "0.0.6"
+  sha256 "7b10824d30da12b79e7fa7eb86b17da9e485e456ff63859a8ae14303d3a6fed4"
 
   url "https://github.com/mantrandev/Mkey/releases/download/v#{version}/Mkey-v#{version}.dmg"
   name "Mkey"
