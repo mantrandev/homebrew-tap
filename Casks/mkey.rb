@@ -10,6 +10,11 @@ cask "mkey" do
   depends_on arch: :arm64
   depends_on macos: :ventura
 
+  conflicts_with cask: [
+    "mantrandev/tap/mkey-vni",
+    "mantrandev/tap/mkey-telex",
+  ]
+
   app "Mkey.app"
 
   zap trash: [
