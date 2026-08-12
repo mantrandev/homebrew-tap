@@ -1,13 +1,14 @@
 cask "hkey-telex" do
-  version "0.0.4"
-  sha256 "07e09fdceac373475c69e6e83427a7ffbab84922b8a83c47b9e9e74c978679ba"
+  version "0.0.5"
+  sha256 "25f3df606ad38eae77dcb61d2ace33e81483aee730cb266e1ad0e033519148e1"
 
   url "https://github.com/mantrandev/HKey/releases/download/telex-v#{version}/HKey-telex-v#{version}.dmg"
   name "HKey Telex"
   desc "Minimal Vietnamese input method for macOS, Telex only"
   homepage "https://github.com/mantrandev/HKey"
 
-  depends_on macos: ">= :ventura"
+  depends_on arch: :arm64
+  depends_on macos: :ventura
 
   conflicts_with cask: [
     "mantrandev/tap/hkey",
