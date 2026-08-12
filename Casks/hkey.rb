@@ -1,13 +1,14 @@
 cask "hkey" do
-  version "0.0.4"
-  sha256 "fe31311175995eebb03d76e621556c84123558cae7929124d207a78045c0603b"
+  version "0.0.5"
+  sha256 "3c403bf374bedcbffea89469359b9c031eae607a4d232d322681edbc66507666"
 
   url "https://github.com/mantrandev/HKey/releases/download/v#{version}/HKey-v#{version}.dmg"
   name "HKey"
   desc "Minimal Vietnamese input method for macOS"
   homepage "https://github.com/mantrandev/HKey"
 
-  depends_on macos: ">= :ventura"
+  depends_on arch: :arm64
+  depends_on macos: :ventura
 
   conflicts_with cask: [
     "mantrandev/tap/hkey-vni",
