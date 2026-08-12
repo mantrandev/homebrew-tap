@@ -7,6 +7,8 @@ cask "hkey-vni" do
   desc "Minimal Vietnamese input method for macOS, VNI only"
   homepage "https://github.com/mantrandev/HKey"
 
+  depends_on macos: ">= :ventura"
+
   conflicts_with cask: [
     "mantrandev/tap/hkey",
     "mantrandev/tap/hkey-telex",
