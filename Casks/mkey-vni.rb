@@ -1,6 +1,6 @@
 cask "mkey-vni" do
-  version "0.0.5"
-  sha256 "5e21ba3f45b40e31e792075e2b3154248f458269c3e1d19c121a54b78932fb38"
+  version "0.0.6"
+  sha256 "901554e9c6b725252b2b282b751daae64e105284572f1e93208c5e656516019c"
 
   url "https://github.com/mantrandev/Mkey/releases/download/vni-v#{version}/Mkey-vni-v#{version}.dmg"
   name "Mkey VNI"
