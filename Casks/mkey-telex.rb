@@ -1,6 +1,6 @@
 cask "mkey-telex" do
-  version "0.0.5"
-  sha256 "9374089ba6cfaa3a561af3b8ad7b5e92013385f775c5b8df5355ca047066711c"
+  version "0.0.6"
+  sha256 "fcc9b9cc4b6909f6635ce1c07e481d366e2efe167f34963cfff70470010ffe04"
 
   url "https://github.com/mantrandev/Mkey/releases/download/telex-v#{version}/Mkey-telex-v#{version}.dmg"
   name "Mkey Telex"
