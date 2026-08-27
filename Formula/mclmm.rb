@@ -7,7 +7,7 @@ class Mclmm < Formula
 
   def install
     bin.install "mclmm"
-    %w[storage scan xcode cache clean app-list uninstall].each do |s|
+    %w[storage scan xcode cache js clean app-list uninstall].each do |s|
       bin.install_symlink "mclmm" => "mclmm-#{s}"
     end
   end
